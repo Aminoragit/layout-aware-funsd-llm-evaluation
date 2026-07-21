@@ -1,0 +1,62 @@
+{
+  "dataset": "FUNSD original release",
+  "official_url": "https://guillaumejaume.github.io/FUNSD/dataset.zip",
+  "terms_url": "https://guillaumejaume.github.io/FUNSD/work/",
+  "retrieved_date": "2026-07-20",
+  "archive_sha256": "c31735649e4f441bcbb4fd0f379574f7520b42286e80b01d80b445649d54761f",
+  "archive_bytes": 16838830,
+  "split": "official testing_data split",
+  "selection": "first four annotation filenames in lexicographic order, fixed before model execution",
+  "selected_page_ids": [
+    "82092117",
+    "82200067_0069",
+    "82250337_0338",
+    "82251504"
+  ],
+  "pages": [
+    {
+      "page_id": "82092117",
+      "annotation_path": "dataset/testing_data/annotations/82092117.json",
+      "image_path": "dataset/testing_data/images/82092117.png",
+      "annotation_sha256": "4a492dc09486d4aec7c8ed6cfa780e7779f16572db0845f4d2f6c52057d236a8",
+      "image_sha256": "279654591d7de3745e5efaf39d3be413baab267be7170082d1922690566c5ad1",
+      "width": 754,
+      "height": 1000,
+      "excluded_empty": 1,
+      "evaluated_entities": 27
+    },
+    {
+      "page_id": "82200067_0069",
+      "annotation_path": "dataset/testing_data/annotations/82200067_0069.json",
+      "image_path": "dataset/testing_data/images/82200067_0069.png",
+      "annotation_sha256": "a6a40b60914548b3df12d27f1a27dd2e356f4131924500f0284f038e0d3d9677",
+      "image_sha256": "c48d22b3c6692f8b1c08398d66fc9a3f9cc8b5bf0ff6641336228ae3cd117e23",
+      "width": 754,
+      "height": 1000,
+      "excluded_empty": 5,
+      "evaluated_entities": 59
+    },
+    {
+      "page_id": "82250337_0338",
+      "annotation_path": "dataset/testing_data/annotations/82250337_0338.json",
+      "image_path": "dataset/testing_data/images/82250337_0338.png",
+      "annotation_sha256": "25daa180c7bf67db2b9493bd350c0ecce9811f372e66ff7acef5ab285d264838",
+      "image_sha256": "5b5083f4127a00a212fcc5c1cbb580e9d1851180f4fbb888ca7c5911baa6da4f",
+      "width": 754,
+      "height": 1000,
+      "excluded_empty": 0,
+      "evaluated_entities": 36
+    },
+    {
+      "page_id": "82251504",
+      "annotation_path": "dataset/testing_data/annotations/82251504.json",
+      "image_path": "dataset/testing_data/images/82251504.png",
+      "annotation_sha256": "e89724ad3b5fc8acbf5b06208c49310dc1eea89c36c42d70e5894de9dee74df1",
+      "image_sha256": "8fd472ccbdbd5349d8fbc6adf52311d69d47651a289b482b9850db20e9c43354",
+      "width": 754,
+      "height": 1000,
+      "excluded_empty": 1,
+      "evaluated_entities": 41
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+artifacts/funsd_dataset.zip
+artifacts/raw_model_outputs.jsonl

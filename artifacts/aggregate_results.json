@@ -1,0 +1,202 @@
+{
+  "experiment": "FUNSD real-document LLM entity classification",
+  "artifact_generated_at": "2026-07-21T11:35:45+0900",
+  "model_attempt_window_utc": {
+    "first": "2026-07-20T08:52:53+00:00",
+    "last": "2026-07-20T09:08:46+00:00"
+  },
+  "endpoint": "http://private-lan-llm-host:11440/v1",
+  "model": "openai/qwable-3.6-27b-mtp",
+  "sampling": {
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "temperature": 0.2,
+    "top_p": 0.9
+  },
+  "dataset_sha256": "c31735649e4f441bcbb4fd0f379574f7520b42286e80b01d80b445649d54761f",
+  "sample_ids": [
+    "82092117",
+    "82200067_0069",
+    "82250337_0338",
+    "82251504"
+  ],
+  "sample_pages": 4,
+  "evaluated_entities": 163,
+  "excluded_empty_text_entities": 7,
+  "successful_model_calls": 6,
+  "raw_model_attempts": 11,
+  "excluded_pilot_or_invalid_attempts": 5,
+  "attempt_disposition": {
+    "nonuniform_protocol": 1,
+    "selected_uniform_complete": 6,
+    "truncated": 4
+  },
+  "selected_calls": [
+    {
+      "condition": "text_only",
+      "seed": 17,
+      "response_id": "chatcmpl-734VhFOUi42tLm1MXkvfcqtd7F9HzB1J",
+      "system_fingerprint": "b9894-a8cfdbb9e"
+    },
+    {
+      "condition": "text_only",
+      "seed": 29,
+      "response_id": "chatcmpl-6e6vnLGVri6bTfUzoZzHn7a2M0LVYuAF",
+      "system_fingerprint": "b9894-a8cfdbb9e"
+    },
+    {
+      "condition": "text_only",
+      "seed": 43,
+      "response_id": "chatcmpl-k0wz6b1MylxdoaR6QwgsnUvjpGtevIBy",
+      "system_fingerprint": "b9894-a8cfdbb9e"
+    },
+    {
+      "condition": "layout_aware",
+      "seed": 17,
+      "response_id": "chatcmpl-FgsMY5j1Ii6L48RuXBg6z61hWa2dIQJ2",
+      "system_fingerprint": "b9894-a8cfdbb9e"
+    },
+    {
+      "condition": "layout_aware",
+      "seed": 29,
+      "response_id": "chatcmpl-30Cym32tfBOnU59UvNpN2NpIpdvGA1F5",
+      "system_fingerprint": "b9894-a8cfdbb9e"
+    },
+    {
+      "condition": "layout_aware",
+      "seed": 43,
+      "response_id": "chatcmpl-cT9VtOLxMhJXMCZOOYlXcNsKouQy4zsG",
+      "system_fingerprint": "b9894-a8cfdbb9e"
+    }
+  ],
+  "ocr_boundary": "FUNSD-published OCR entity text and boxes; Tesseract was not installed and OCR was not rerun.",
+  "hybrid_rule": "layout_aware when nonempty entity count >= 40; otherwise text_only; outputs selected post hoc from matched seeded baseline calls",
+  "hybrid_cost_boundary": "No separate hybrid API call was made; hybrid prompt tokens are therefore not reported.",
+  "trials": [
+    {
+      "condition": "text_only",
+      "seed": 17,
+      "pages": 4,
+      "entities": 163,
+      "accuracy": 0.7730061349693251,
+      "mean_page_macro_f1": 0.6849244916008124,
+      "prompt_tokens": 2915,
+      "layout_aware_pages": 0
+    },
+    {
+      "condition": "text_only",
+      "seed": 29,
+      "pages": 4,
+      "entities": 163,
+      "accuracy": 0.7791411042944786,
+      "mean_page_macro_f1": 0.6926230838582281,
+      "prompt_tokens": 2915,
+      "layout_aware_pages": 0
+    },
+    {
+      "condition": "text_only",
+      "seed": 43,
+      "pages": 4,
+      "entities": 163,
+      "accuracy": 0.7852760736196319,
+      "mean_page_macro_f1": 0.6925531680714007,
+      "prompt_tokens": 2915,
+      "layout_aware_pages": 0
+    },
+    {
+      "condition": "layout_aware",
+      "seed": 17,
+      "pages": 4,
+      "entities": 163,
+      "accuracy": 0.8282208588957055,
+      "mean_page_macro_f1": 0.7286120574160185,
+      "prompt_tokens": 7710,
+      "layout_aware_pages": 4
+    },
+    {
+      "condition": "layout_aware",
+      "seed": 29,
+      "pages": 4,
+      "entities": 163,
+      "accuracy": 0.8282208588957055,
+      "mean_page_macro_f1": 0.7311399730487729,
+      "prompt_tokens": 7710,
+      "layout_aware_pages": 4
+    },
+    {
+      "condition": "layout_aware",
+      "seed": 43,
+      "pages": 4,
+      "entities": 163,
+      "accuracy": 0.8220858895705522,
+      "mean_page_macro_f1": 0.7144739525773088,
+      "prompt_tokens": 7710,
+      "layout_aware_pages": 4
+    },
+    {
+      "condition": "hybrid",
+      "seed": 17,
+      "pages": 4,
+      "entities": 163,
+      "accuracy": 0.8098159509202454,
+      "mean_page_macro_f1": 0.7042907904476927,
+      "prompt_tokens": null,
+      "layout_aware_pages": 2
+    },
+    {
+      "condition": "hybrid",
+      "seed": 29,
+      "pages": 4,
+      "entities": 163,
+      "accuracy": 0.8159509202453987,
+      "mean_page_macro_f1": 0.7145172983378629,
+      "prompt_tokens": null,
+      "layout_aware_pages": 2
+    },
+    {
+      "condition": "hybrid",
+      "seed": 43,
+      "pages": 4,
+      "entities": 163,
+      "accuracy": 0.8098159509202454,
+      "mean_page_macro_f1": 0.7042907904476927,
+      "prompt_tokens": null,
+      "layout_aware_pages": 2
+    }
+  ],
+  "summary": [
+    {
+      "condition": "text_only",
+      "trials": 3,
+      "accuracy_mean": 0.7791411042944786,
+      "accuracy_sd": 0.006134969325153394,
+      "mean_page_macro_f1_mean": 0.6900335811768137,
+      "mean_page_macro_f1_sd": 0.004424739458546251,
+      "prompt_tokens_mean": 2915,
+      "layout_aware_pages": 0
+    },
+    {
+      "condition": "layout_aware",
+      "trials": 3,
+      "accuracy_mean": 0.8261758691206544,
+      "accuracy_sd": 0.003542026191347377,
+      "mean_page_macro_f1_mean": 0.7247419943473667,
+      "mean_page_macro_f1_sd": 0.008981764899245664,
+      "prompt_tokens_mean": 7710,
+      "layout_aware_pages": 4
+    },
+    {
+      "condition": "hybrid",
+      "trials": 3,
+      "accuracy_mean": 0.8118609406952965,
+      "accuracy_sd": 0.003542026191347377,
+      "mean_page_macro_f1_mean": 0.7076996264110827,
+      "mean_page_macro_f1_sd": 0.0059042770832596035,
+      "prompt_tokens_mean": null,
+      "layout_aware_pages": 2
+    }
+  ]
+}

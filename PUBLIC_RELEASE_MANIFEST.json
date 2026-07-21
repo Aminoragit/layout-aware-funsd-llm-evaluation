@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "scope": "Public release package after endpoint redaction and redistribution exclusions",
+  "files": {
+    ".gitignore": {
+      "sha256": "288cc56a5eee7bfd41e642e1f289c6e3373bde9a094b5de6684a25cdeeaa8b95",
+      "bytes": 81
+    },
+    "artifacts/aggregate_results.json": {
+      "sha256": "b0e481e2e3776245b7e60a3a9e2494ad5f41901e007d857d69df2be95e1039da",
+      "bytes": 5845
+    },
+    "artifacts/DATASET_LICENSE_NOTICE.md": {
+      "sha256": "3e6114547e0a32006457f9abfae6f3cec303aeff9031eb80cadb26d990a5e674",
+      "bytes": 833
+    },
+    "artifacts/execution.log": {
+      "sha256": "895ee14069b415173847bd816fe1f4c62e7e518398a75cbcec0211f3815d1de7",
+      "bytes": 771
+    },
+    "artifacts/per_page_metrics.csv": {
+      "sha256": "0f6c482bd8f4e2799b0a940fabdbc3965b39de530bdbed230440523d45e7a4a3",
+      "bytes": 5159
+    },
+    "artifacts/run_experiment.py": {
+      "sha256": "d59d7e0d2de0041c79af462155801fe254759ef0c9450d493d7926af62773cfe",
+      "bytes": 19915
+    },
+    "artifacts/source_manifest.json": {
+      "sha256": "5ac850952cfed10a5d85a88dde2ae12db8bf86784e988c09afb556c1b8d4c44c",
+      "bytes": 2549
+    },
+    "figures/pipeline.png": {
+      "sha256": "295e0beaf6403f8e2f9e14a7c0a079ec41d21228b4be8349e54d4d1e3d51ced0",
+      "bytes": 520205
+    },
+    "PAPER.md": {
+      "sha256": "64fd40e4989e1e3a79ce36ea0d8539a77ba255499d94a86e5fd62d908109fa26",
+      "bytes": 27362
+    },
+    "PAPER.pdf": {
+      "sha256": "91e710996511573eb07fdaf35da9381a019c9fc15d4b7f5425512ef1599038ff",
+      "bytes": 847615
+    },
+    "README.md": {
+      "sha256": "75f18d2bccfcc5ed56337fa5c50b23c3746069c20bd2b300e15d15852402dc9e",
+      "bytes": 798
+    }
+  }
+}
