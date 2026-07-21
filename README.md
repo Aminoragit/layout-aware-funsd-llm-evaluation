@@ -2,6 +2,8 @@
 
 Reproducible preprint and rights-safe evidence bundle by Choi Seok Won.
 
+Zenodo record: [10.5281/zenodo.21467012](https://doi.org/10.5281/zenodo.21467012)
+
 - Paper: [`PAPER.pdf`](PAPER.pdf)
 - Source manuscript: [`PAPER.md`](PAPER.md)
 - Code, metrics, manifest, and license notice: [`artifacts/`](artifacts/)
